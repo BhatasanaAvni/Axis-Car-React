@@ -1,16 +1,20 @@
 import "./App.css";
-import Header from "./Component/Header";
-import Main from "./Component/Main";
-import Collection from "./Component/Collection";
-import Service from "./Component/Service";
-import Slider from "./Component/Slider";
-import Facility from "./Component/Facility";
-import Performence from "./Component/Performence";
-import Footer from "./Component/Footer";
+import React ,{ Suspense } from "react";
+
+
+const Header =React.lazy(()=>import("./Component/Header"))
+const Main =React.lazy(()=>import("./Component/Main"))
+const Collection =React.lazy(()=>import("./Component/Collection"))
+const Service =React.lazy(()=>import("./Component/Service"))
+const Slider =React.lazy(()=>import("./Component/Slider"))
+const Facility =React.lazy(()=>import("./Component/Facility"))
+const Performence =React.lazy(()=>import("./Component/Performence"))
+const Footer =React.lazy(()=>import("./Component/Footer"))
 
 function App() {
   return (
     <>
+<Suspense fallback={<div>Loading.....</div>}>
       <Header />
       <Main />
       <Collection />
@@ -19,6 +23,7 @@ function App() {
       <Facility />
       <Performence />
       <Footer />
+</Suspense>
     </>
   );
 }
