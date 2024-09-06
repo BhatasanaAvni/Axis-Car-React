@@ -1,0 +1,35 @@
+.service-main {
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      242deg,
+      #000000 0.41%,
+      rgba(29, 29, 29, 0.75) 41.16%,
+      rgba(58, 58, 58, 0.5) 55.54%,
+      rgba(115, 115, 115, 0) 96.28%
+    ),
+    url("/public/assets/Video/service.gif");
+  transform: rotateY(180deg);
+}
+.service-main h3 {
+    padding-top: 110px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.service-main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.service-btn {
+  margin: 287px 0 187px;
+}
+.service-main .container {
+  transform: rotateY(180deg);
+}

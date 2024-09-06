@@ -1,0 +1,20 @@
+ :root {
+  --max-width-2: 285px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.Nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 285px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 69px;
+} 

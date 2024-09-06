@@ -1,0 +1,31 @@
+.slider-heading {
+  margin: 148px 0 121px;
+  text-align: center;
+}
+h4 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.slider-heading p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 24px;
+}
+.slider-img {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  height: 358.49px;
+}
+.slider-img img {
+  object-fit: cover;
+  width: 6%;
+  transition: all 1s;
+  border-radius: 10px;
+}
+.slider-img img:hover {
+  width: 30%;
+}

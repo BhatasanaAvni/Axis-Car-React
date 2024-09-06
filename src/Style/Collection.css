@@ -1,0 +1,65 @@
+.collection-heading {
+  text-align: center;
+}
+
+.collection-heading h2 {
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 400;
+  margin-top: 128px;
+}
+
+.collection-heading p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+
+}
+
+.scroller-main{
+    overflow: hidden;
+    padding-bottom: 15.25rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  height: 574px;
+  margin-top: 4.8rem;
+  /* flex-wrap: wrap; */
+ 
+}
+.scroller {
+  height: 574px;
+  overflow: scroll;
+  width: 100%;
+  max-width: 858px;
+  overflow-x: hidden;
+  padding-right: 80px;
+}
+.scroller img {
+  padding-top: 70px;
+  width: 100%;
+
+}
+.data{
+  padding-left: 80px;
+}
