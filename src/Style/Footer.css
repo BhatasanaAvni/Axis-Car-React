@@ -94,6 +94,7 @@ hr {
   .like-us p {
     font-size: 24px;
     line-height: 30px;
+    text-align: center;
   }
   .inner-bottem-foter:nth-child(2) input {
     display: none;

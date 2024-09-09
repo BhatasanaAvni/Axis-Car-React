@@ -20,7 +20,7 @@ function App() {
         <Main />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
-        {/* <Collection /> */}
+        <Collection />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <Service />
@@ -34,9 +34,9 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Performence />
       </Suspense>
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <Suspense fallback={<div>Loading...</div>}>
         <Footer />
-      </Suspense>
+      </Suspense> */}
     </>
   );
 }
