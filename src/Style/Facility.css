@@ -3,6 +3,7 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 66px 0;
     justify-items: center;
+    gap: 10px;
   }
   @media(max-width:786px){
     .facility-container {

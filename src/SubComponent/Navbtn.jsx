@@ -20,14 +20,14 @@ const link ={
 }
 const Navbtn = () => {
   return (
-    <div>
+    <>
       <button style={NavButton}>
         <a href="" style={link}>
           Contact Us
           <MdOutlineArrowOutward />
         </a>
       </button>
-    </div>
+    </>
   );
 };
 

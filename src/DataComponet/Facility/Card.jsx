@@ -36,7 +36,7 @@ const content = {
   fontWeight: 300,
   lineHeight: "24px",
 };
-const CardContent={
-width:"100%",
-maxWidth:"300px"
-}
+const CardContent = {
+  width: "100%",
+  maxWidth: "300px",
+};

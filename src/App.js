@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { Suspense } from "react";
 
-// const Header = React.lazy(() => import("./Component/Header"));
+const Header = React.lazy(() => import("./Component/Header"));
 const Main = React.lazy(() => import("./Component/Main"));
 const Collection = React.lazy(() => import("./Component/Collection"));
 const Service = React.lazy(() => import("./Component/Service"));
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Suspense fallback={<div>Loading.....</div>}>
-        {/* <Header /> */}
+        <Header />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <Main />

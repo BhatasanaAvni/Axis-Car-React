@@ -1,20 +1,73 @@
- :root {
-  --max-width-2: 285px;
+.main-header{
+  position: sticky;
+  top: 0;
+width: 100%;
+z-index: 9999;
+background: #000;
 }
-
 .Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 0;
+  position: relative;
 }
+
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+
 .Nav-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 285px;
   width: 100%;
+  max-width: 530px;
   font-size: 14px;
   font-weight: 400;
-  line-height: 69px;
-} 
+  line-height: 30px;
+}
+
+.Nav-link.open {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  padding: 20px;
+  border-top: none;
+}
+
+.Nav-link li {
+  margin-bottom: 10px;
+}
+
+.Nav-link li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .Header {
+    padding: 0 25px;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .Nav-link {
+    display: none;
+  }
+
+  .Nav-link.open {
+    max-width: 100%;
+    display: flex;
+  }
+}
