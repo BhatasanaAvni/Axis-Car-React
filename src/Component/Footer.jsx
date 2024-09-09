@@ -34,7 +34,6 @@ const Footer = () => {
           <div className="get-btn">
             Got To Top
             <svg
-              
               viewBox="0 0 47 47"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -72,36 +71,9 @@ const Footer = () => {
               <span>We want to hear from you</span>
             </div>
             <div className="like-us">
-              <p>
-                You’re built different
-                Just like us
-              </p>
+              <p>You’re built different Just like us</p>
             </div>
           </div>
-          <div className="inner-bottem-foter">
-            <input placeholder="Leave a message" />
-            <svg
-              width="80"
-              height="81"
-              viewBox="0 0 80 81"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect
-                y="0.883301"
-                width="80"
-                height="80"
-                rx="40"
-                fill="#A5EFFF"
-              />
-              <path
-                d="M37.426 30.8984C38.0876 31.5788 39.7476 31.9411 41.2572 32.1322C43.202 32.3819 45.1808 32.3254 47.0916 31.8926C48.5243 31.568 50.1263 31.0359 51.0029 30.1835M51.0029 30.1835C50.1263 31.0359 49.5488 32.6233 49.1853 34.0455C48.7002 35.9444 48.5885 37.9209 48.782 39.87C48.9318 41.3853 49.2494 43.0566 49.9093 43.7352M51.0029 30.1835L28.9971 51.5834"
-                stroke="black"
-                stroke-width="0.558712"
-              />
-            </svg>
-          </div>
-          <hr />
         </div>
       </div>
     </div>

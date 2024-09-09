@@ -4,7 +4,7 @@ const Card = ({ Facilityprops }) => {
   console.log(Facilityprops);
 
   return (
-    <div style={{ display: "flex", justifyContent:"space-between" }}>
+    <>
       {Facilityprops.map((Facilitymap) => (
         <div key={Facilitymap.id} style={CardContent}>
           <h5 style={Number}>{Facilitymap.Number}</h5>
@@ -12,7 +12,7 @@ const Card = ({ Facilityprops }) => {
           <p style={content}>{Facilitymap.content}</p>
         </div>
       ))}
-    </div>
+    </>
   );
 };
 

@@ -1,0 +1,19 @@
+.collection-data h3{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #ABA6A6;
+  padding-top: 33.36px;
+}
+.collection-data p{
+  font-size: 15px;
+  line-height: 15.97px;
+  font-weight: 300;
+  color: #ABA6A6;
+}
+@media(max-width:786px){
+  .collection-data{
+    width: 100%;
+    max-width: 378px;
+  }
+}

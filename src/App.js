@@ -29,14 +29,14 @@ function App() {
         <Slider />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
-        {/* <Facility /> */}
+        <Facility />
       </Suspense>
       <Suspense fallback={<div>Loading...</div>}>
         <Performence />
       </Suspense>
-      {/* <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<div>Loading...</div>}>
         <Footer />
-      </Suspense> */}
+      </Suspense>
     </>
   );
 }

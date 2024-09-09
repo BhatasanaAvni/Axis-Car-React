@@ -91,4 +91,8 @@
     .data {
       width: 56%;
   }
+  .collection-data{
+    width: 100%;
+    max-width: 200px;
+  }
 }
