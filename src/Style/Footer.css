@@ -8,21 +8,20 @@ ul,
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  color:#D6D4CC;
+  color: #d6d4cc;
 }
 .social-icon {
-    display: flex;
-    gap: 15px;
-    color: #A5EFFF;
-    font-size: 22px;
+  display: flex;
+  gap: 15px;
+  color: #a5efff;
+  font-size: 22px;
 }
 .inner-bottem-foter {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
-.inner-bottem-foter:nth-child(1){
+.inner-bottem-foter:nth-child(1) {
   padding: 164px 0 64px;
 }
 .svg-icon {
@@ -30,30 +29,79 @@ ul,
   align-items: center;
   gap: 10px;
 }
-.svg-icon span{
-font-size: 12px;
-font-weight: 500;
-line-height: 15.6px;
-color:#D6D4CC;
+.get-btn svg {
+  width: 47px;
+  height: 47px;
 }
-.like-us p{
-font-size: 50px;
-font-weight: 300;
-line-height: 40px;
-text-align: right;
+.svg-icon span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15.6px;
+  color: #d6d4cc;
 }
-.inner-bottem-foter:nth-child(2) input{
-font-size: 80px;
-font-weight: 400;
-line-height: 80px;
-letter-spacing: -0.06em;
-padding-bottom: 24px;
-background: transparent;
-border: none;
+.like-us p {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: right;
+  width: 100%;
+  max-width: 606px;
 }
-.inner-bottem-foter:nth-child(2) input::placeholder{
-  color:#D6D4CC;
+.inner-bottem-foter:nth-child(2) input {
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: -0.06em;
+  padding-bottom: 24px;
+  background: transparent;
+  border: none;
 }
-hr{
-  color: #D6D4CC;
+.inner-bottem-foter:nth-child(2) input::placeholder {
+  color: #d6d4cc;
+}
+
+hr {
+  color: #d6d4cc;
+}
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  .top-footer,
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-icon {
+    font-size: 18px;
+  }
+  .get-btn svg {
+    width: 17px;
+    height: 17px;
+  }
+  .inner-bottem-foter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-bottem-foter:nth-child(1) {
+    padding: 40px 22px 20px;
+  }
+  .svg-icon {
+    gap: 5px;
+  }
+
+  .like-us p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .inner-bottem-foter:nth-child(2) input {
+    display: none;
+  }
+  .inner-bottem-foter:nth-child(2) svg {
+    display: none;
+  }
+  hr{
+    display: none;
+  }
 }

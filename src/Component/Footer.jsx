@@ -34,8 +34,7 @@ const Footer = () => {
           <div className="get-btn">
             Got To Top
             <svg
-              width="47"
-              height="47"
+              
               viewBox="0 0 47 47"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +73,7 @@ const Footer = () => {
             </div>
             <div className="like-us">
               <p>
-                You’re built different <br />
+                You’re built different
                 Just like us
               </p>
             </div>

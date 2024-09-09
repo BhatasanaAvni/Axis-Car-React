@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdOutlineArrowOutward } from "react-icons/md";
-
+import "./Btn.css"
 
 const btn = {
   background: "#343430",
@@ -14,16 +14,18 @@ const btn = {
   lineHeight: "26.94px",
 };
 
+
+
 const Btn = () => {
   return (
     <div>
-     <div className="btn">
-      <button style={btn}>
+     {/* <div className="btn"> */}
+      <button className="btn">
         <a href="">Order Now
           <MdOutlineArrowOutward/>        
         </a>
       </button>
-     </div>
+     {/* </div> */}
     </div>
   )
 }

@@ -4,7 +4,8 @@ const Facility = () => {
   return (
     <>
       <div className="container">
-        <div className="facility-container" style={{width: "100%" , maxWidth: "664px"}}>
+        <div className="facility-container" style={{display: "flex", justifyContent: "space-between"
+}}>
           <FacilityData />
         </div>
       </div>

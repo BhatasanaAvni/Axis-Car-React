@@ -6,7 +6,7 @@ const Card = ({ Facilityprops }) => {
   return (
     <div style={{ display: "flex", justifyContent:"space-between" }}>
       {Facilityprops.map((Facilitymap) => (
-        <div key={Facilitymap.id} className="hello world">
+        <div key={Facilitymap.id} style={CardContent}>
           <h5 style={Number}>{Facilitymap.Number}</h5>
           <h6 style={heading}>{Facilitymap.heading}</h6>
           <p style={content}>{Facilitymap.content}</p>
@@ -36,3 +36,7 @@ const content = {
   fontWeight: 300,
   lineHeight: "24px",
 };
+const CardContent={
+width:"100%",
+maxWidth:"300px"
+}
