@@ -31,7 +31,7 @@ h4 {
 }
 @media (max-width:786px) {
   .slider-img {
-    gap: 22px;
+    gap: 12px;
     height: 198.49px;
   }
   .slider-heading {
